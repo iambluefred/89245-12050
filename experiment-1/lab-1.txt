@@ -1,0 +1,35 @@
+ToyotaTorqueSensor.png 
+Yellow = sensor1 pin9
+Green. = sensor2 pin1
+
+main-lab-1.c = pedal 
+https://youtu.be/WfW1WFtfX5k
+SWIFT EPS  = 38720 73K10 
+TOYOTA EPS = 89650-02B50
+
+
+    ——————————————————
+   | 2006 SWIFT       |
+   | EPS              |
+   |                  |
+   |                  | PIN6 >>>> Pedal input pin1
+    ——————————————————
+
+
+    ——————————————————
+   | COMMA AI         | INPUT PIN1. << SWIFT EPS PIN6
+   | PEDAL            |
+   |                  | OUTPUT PIN4 >> TOYOTA EPS PIN9
+   |                  | OUTPUT PIN6 >> TOYOTA EPS PIN1
+    ——————————————————
+
+
+    ——————————————————
+   | TOYOTA EPS       |
+   | 02B50            |
+   |                  | PIN1 << Pedal output pin4
+   |                  | PIN9 << Pedal output pin6
+    ——————————————————
+
+
+
